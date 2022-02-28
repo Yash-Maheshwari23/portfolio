@@ -1,8 +1,8 @@
-import {Route,Switch} from 'react-router-dom';
-import Layout from "./pages/Layout";
-import Home from "./pages/Home";
-import Cv from "./pages/Cv";
-import Error from "./pages/Error";
+import { Route, Switch } from "react-router-dom";
+import Layout from "./Pages/Layout";
+import Home from "./Pages/Home";
+import Cv from "./Pages/Cv";
+import Error from "./Pages/Error";
 
 function App() {
   return (
@@ -10,13 +10,13 @@ function App() {
       <Layout>
         <Switch>
           <Route path="/" exact>
-            <Home/>
+            <Home />
           </Route>
           <Route path="/cv" exact>
-            <Cv/>
+            <Cv />
           </Route>
           <Route path="*">
-            <Error/>
+            <Error />
           </Route>
         </Switch>
       </Layout>

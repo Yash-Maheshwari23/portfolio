@@ -1,0 +1,12 @@
+#s1 {
+    display: none;
+}
+
+#s2 {
+    display: block;
+}
+
+#active {
+    background-color: white;
+    box-shadow: 5px 5px 20px grey;
+}

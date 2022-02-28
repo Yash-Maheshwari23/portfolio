@@ -1,0 +1,98 @@
+.mDiv h1 {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contInfo {
+    font-family: "Nunito", sans-serif;
+}
+
+.slideDiv {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.slideDiv1 {
+    width: 40%;
+}
+
+.inpDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.formtag {
+    font-family: "Nunito", sans-serif;
+}
+
+.inpDiv input,
+.taM {
+    border-style: solid;
+    outline: none;
+    transition: all 0.3s;
+    font-family: "Nunito", sans-serif;
+}
+
+.inpDiv input {
+    border-width: 0px 0px 1px 0px;
+}
+
+.inpDiv input:focus,
+.taM:focus {
+    border-color: green;
+}
+
+.taM {
+    resize: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 3%;
+    text-align: justify;
+}
+
+.iconsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 10% 0%;
+    color: lightgreen;
+}
+
+.iconsDiv svg {
+    color: lightgreen;
+    margin-right: 20px;
+}
+
+.iconsDiv0 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconsDivI0 {
+    color: #0077b5;
+}
+
+.iconsDivI1 {
+    color: black;
+}
+
+.hackerrankIcon {
+    width: 35px;
+}
+
+@media only screen and (max-width: 900px) {
+    .slideDiv {
+        flex-direction: column;
+    }
+    .infoDiv {
+        /* margin-top: 30px; */
+        margin-bottom: 30px;
+    }
+}

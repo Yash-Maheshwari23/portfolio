@@ -1,0 +1,98 @@
+.CvmDiv {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.CvBtnDiv {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.prev,
+.next {
+    position: relative;
+    padding: 0.5% 2%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    cursor: not-allowed;
+}
+
+.prev {
+    background-color: lightgreen;
+}
+
+.next {
+    background-color: lightgreen;
+}
+
+.downloadIcon {
+    cursor: pointer;
+    color: grey;
+}
+
+.downloadIcon:hover {
+    color: black;
+}
+
+.CvBtnDivMiddle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+
+/* .pageDiv {
+    margin-top: -230px;
+} */
+
+.alert {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.alertShow {
+    opacity: 1;
+    visibility: visible;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+}
+
+.CvBtnDivRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 10%;
+}
+
+#icon {
+    transition: all 0.3s;
+}
+
+.pTag {
+    position: absolute;
+    top: 110px;
+    right: 30px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#icon:hover>.pTag {
+    opacity: 1;
+    visibility: visible;
+}
+
+.embedPdf {
+    width: 100%;
+}

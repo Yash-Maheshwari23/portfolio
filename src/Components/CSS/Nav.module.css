@@ -1,0 +1,110 @@
+.mDiv {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    align-items: center;
+    z-index: 3;
+    width: 100%;
+    min-width: 100%;
+    transition: all 0.3s;
+}
+
+.ul {
+    list-style-type: none;
+}
+
+.li {
+    display: inline;
+}
+
+.linkNav {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.linkNav:hover {
+    color: #96bb7c;
+}
+
+.burger {
+    float: right;
+    width: 40px;
+    display: none;
+}
+
+.burger div {
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    margin: 0px 0px 7px 0px;
+}
+
+.NrmDiv {
+    display: none;
+}
+
+.ulDark {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.ulDark1 {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 1030px;
+}
+
+.liDark {
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .darkmodeBtn {
+        cursor: pointer;
+        position: fixed;
+        bottom: 5%;
+        left: 20px;
+    }
+    .mDiv {
+        justify-content: end;
+        height: 3.6vh;
+    }
+    .ul {
+        display: none;
+    }
+    .burger {
+        display: block;
+        margin-right: 30px;
+    }
+    .burger div {
+        margin: 0px 0px 7px 0px;
+    }
+    .NrmDiv {
+        display: block;
+        position: absolute;
+        top: 48px;
+        right: 0px;
+        padding: 1% 1% 1% 0px;
+        width: 100%;
+        background-color: white;
+        border-style: solid;
+        border-width: 0px 0px 1px 0px;
+        border-color: grey;
+    }
+    .NrmDiv ul {
+        list-style: none;
+        font-family: "Nunito", sans-serif;
+    }
+    .NrmDiv ul li {
+        margin-bottom: 10%;
+    }
+}

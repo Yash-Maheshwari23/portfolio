@@ -1,0 +1,7 @@
+.darkSearchInp:focus {
+    box-shadow: 0px 5px 20px rgb(92, 92, 92);
+}
+
+.lightSearchInp:focus {
+    box-shadow: 0px 5px 3px rgb(201, 255, 201);
+}

@@ -1,0 +1,25 @@
+.textDiv {
+    overflow: hidden;
+}
+
+.text {
+    z-index: 2;
+    transform: translateY(200%);
+}
+
+#head {
+    cursor: none;
+}
+
+#head:hover>.cursors {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    position: absolute;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 180, 0);
+    border-radius: 50%;
+    z-index: 2;
+    backdrop-filter: blur(1px);
+}

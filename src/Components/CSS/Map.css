@@ -1,0 +1,48 @@
+.mapouter {
+    position: relative;
+    text-align: right;
+    max-height: 500px;
+    max-width: 600px;
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    max-height: 500px;
+    max-width: 600px;
+    height: 500px;
+    width: 600px;
+}
+
+#gmap_canvas {
+    max-height: 500px;
+    max-width: 600px;
+    height: 500px;
+    width: 600px;
+}
+
+@media only screen and (max-width: 610px) {
+    #gmap_canvas {
+        width: 100%;
+    }
+    .mapouter {
+        width: 500px;
+    }
+    .gmap_canvas {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .mapouter {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .mapouter {
+        width: 300px;
+    }
+}

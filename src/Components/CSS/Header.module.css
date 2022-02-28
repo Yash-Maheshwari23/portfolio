@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Oswald:wght@500&display=swap");
+.headmDiv {
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    margin-top: -54px;
+    z-index: 2;
+}
+
+.headmDiv p {
+    margin: 0px;
+    filter: brightness(1);
+}
+
+.imgTag {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 120vh;
+    z-index: 1;
+    filter: brightness(0.65);
+}
+
+.overlay {
+    z-index: 2;
+}
+
+@media only screen and (max-width: 800px) {
+    .imgTag,
+    .headmDiv {
+        height: 100vh;
+    }
+    .headmDiv {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .imgTag,
+    .headmDiv {
+        height: 70vh;
+    }
+    .headmDiv {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .imgTag,
+    .headmDiv {
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    .imgTag,
+    .headmDiv {
+        height: 40vh;
+    }
+    .headmDiv {
+        font-size: 1.5rem;
+    }
+}
