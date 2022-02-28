@@ -84,7 +84,7 @@ export default function MyBio() {
             </p>
           </a>
           <a
-            href="https://drive.google.com/file/d/14jf3wl644XHw0eNcCviRiWhWlH3lXwIb/view?usp=sharing"
+            href="https://drive.google.com/file/d/1_CT2BiW-VZLZ1d6w4Eznif2pTeaY_c7K/view?usp=sharing"
             target="_blank"
             className={MybioCss.CvLink}
           >
