@@ -2,7 +2,40 @@
     "id": "1",
     "name": "Chatwave",
     "description": "This is a chat application using react and can conect with multiple channels and users",
-    "img": "",
-    "url": ""
+    "img": "https://i.ibb.co/gDqHZKp/Screenshot-173.png",
+    "url1": "https://github.com/Yash-Maheshwari23/chatwave",
+    "url2":"https://chatwave.netlify.app/"
+},
+{
+    "id": "2",
+    "name": "To-do App",
+    "description": "A to-do application with different categories and drag and drop features that helps you to manage your tasks efficiently",
+    "img": "https://i.ibb.co/h12MM3y/Screenshot-174.png",
+    "url1": "https://github.com/Yash-Maheshwari23/To-do",
+    "url2":"https://to-do-advance.netlify.app/"
+},
+{
+    "id": "3",
+    "name": "OpenGallery",
+    "description": "This is a image search application that shows available public images of searched input",
+    "img": "https://i.ibb.co/djQ51H5/Screenshot-175.png",
+    "url1": "https://github.com/Yash-Maheshwari23/gallery",
+    "url2":"https://galleryverse.netlify.app/"
+},
+{
+    "id": "4",
+    "name": "E-commerce",
+    "description": "This is an e-commerce application that lets users buy clothing products and do payments",
+    "img": "https://i.ibb.co/kHvfHB4/Screenshot-177.png",
+    "url1": "https://github.com/Yash-Maheshwari23/e-commerce",
+    "url2":""
+},
+{
+    "id": "5",
+    "name": "User-Detail",
+    "description": "This is a simple application that takes response from api and shows the details of the user",
+    "img": "https://i.ibb.co/R36p4Nt/Screenshot-179.png",
+    "url1": "https://github.com/Yash-Maheshwari23/users",
+    "url2":"https://user-information-app.netlify.app/"
 }
 ]

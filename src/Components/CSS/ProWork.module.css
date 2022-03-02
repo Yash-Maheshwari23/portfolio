@@ -4,14 +4,24 @@
     justify-content: center;
     align-items: center;
 }
+.mdiv1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    place-content: space-evenly;
+}
 
 .pwH3 {
     margin-top: 10px;
 }
 
 .imgPw {
-    max-width: 500px;
+    max-width: 400px;
     transition: all 0.3s;
+    
+    
 }
 
 .imgPw:hover {
@@ -47,6 +57,7 @@
     }
     .imgPw {
         width: 100%;
+        
     }
 }
 

@@ -43,7 +43,10 @@ export default function Portfolio() {
                 title={value.name}
                 des={value.description}
                 link={{
-                  pathname: `${value.url}`,
+                  pathname: `${value.url1}`,
+                }}
+                link1={{
+                  pathname: `${value.url2}`,
                 }}
               />
             </div>
