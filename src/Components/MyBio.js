@@ -22,7 +22,7 @@ export default function MyBio() {
         <div className={MybioCss.ResimgDiv}>
         <h1 className={MybioCss.myBioH1}>My Bio</h1>
         <p className={MybioCss.mBp}>
-          Hi, I'm <b>Yash Maheshwari</b>, graduated in Information Technology by <b>Rajasthan Technical University, Kota.</b> I am currently working as <b>Associate Systems Engineer </b> at <b>IBM</b>. I have 1+ year of work experience and i am proficient in writting efficient reusable components using <b>React</b> and <b>Redux</b>. I am open to learn new technologies with keen interest towards Frontend Technologies, Data Engineering, Cloud, Salesforce and achived various certifications for the same.
+          Hi, I'm <b>Yash Maheshwari</b>, graduated in Information Technology by <b>Rajasthan Technical University, Kota.</b> I am currently working as <b>Application Developer </b> at <b>IBM</b>. I have 1+ year of work experience and i am proficient in writting efficient reusable components using <b>React</b> and <b>Redux</b>. I have implemented various pipelines for continous integration and deployment, used big data for managing data and sonarque for code inspection and security. I am open to learn new technologies with keen interest towards Frontend Technologies, Data Engineering, Cloud, Salesforce and achived various certifications for the same.
           
         </p>
         </div>
@@ -84,7 +84,7 @@ export default function MyBio() {
             </p>
           </a>
           <a
-            href="https://drive.google.com/file/d/1_CT2BiW-VZLZ1d6w4Eznif2pTeaY_c7K/view?usp=sharing"
+            href="https://drive.google.com/file/d/1kC92VGsZLlshMjQgBxjI4KNOYqZZmunc/view?usp=sharing"
             target="_blank"
             className={MybioCss.CvLink}
           >
