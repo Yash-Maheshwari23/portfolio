@@ -28,7 +28,7 @@ export default function Header() {
           <p className="text" id="textCursor">
             <Typewriter
               options={{
-                strings: ["A Front-End Web Developer"],
+                strings: ["I am a Software Developer"],
                 autoStart: true,
                 loop: true,
               }}
